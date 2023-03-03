@@ -1,0 +1,184 @@
+/* Element tags */
+
+form {
+    background: transparent;
+}
+
+h1 {
+    font-family: "merriweather";
+    margin-bottom: 8%;
+}
+
+h2 {
+    text-align: center;
+    margin: 2% auto 3%;
+}
+
+h3 {
+    text-align: center;
+    font-family: "merriweather";
+    font-size: 2.5rem;
+}
+h5 {
+    font-family:"ubuntu";
+    font-size: 3rem;
+    padding-bottom: 20%;
+    text-align: left;
+    color: #fff;
+}
+
+h6 {
+    font-family: "merriweather";
+    font-size: 2rem;
+    margin: 6% auto;
+}
+
+hr {
+    color: #fff;
+    margin: 3% auto;
+    padding: 0 50%;
+}
+
+p  {
+    font-family:"merriweather";
+    font-weight: normal;
+    font-size: 1rem;
+}
+span {
+    color: #F99417;
+}
+
+/* id tags */
+
+#title {
+    background-color: #F99417;
+}
+
+#testimonial {
+    padding: 8% 15% 7%;
+    text-align: center;
+    background-color: #ECF9FF;
+    font-family: "ubuntu";
+}
+
+#middle-container {
+    text-align: left; 
+    padding: 4% 5% 7%;
+}
+#bottom-container {
+    background-color: grey;
+    padding: 5% 10% 3%;
+    color: #fff;
+    text-align: center;
+}
+
+#feature-project {
+    padding: 1% 2% 0.5px;
+    background-color: #F99417;
+    color: #fff;
+}
+
+#footer-foot {
+    padding: 7% 8% 3%;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+}
+
+/* class tags */
+
+.caption {
+    font-size: 2rem;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+.company {
+    padding-top: 6%;
+}
+
+.content {
+    text-align: left;
+}
+
+
+.icon {
+    padding: 7% 0;
+}
+
+.info {
+    text-decoration: none;
+    color: #fff;
+}
+.icon-footer {
+    margin: 0 2%;
+    color: #fff;
+    
+}
+
+.inner-welocme {
+    flex: 1 1 45rem;
+}
+.learn-btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    padding: 1% 2%;
+    font-family: 'Merriweather', serif;
+}
+
+.row  {
+    background-color: gray;
+    margin-bottom: 3%;
+}
+
+.solar-panel {
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin-left: 20px;
+}
+
+.slide {
+    padding: 0 1%;
+}
+
+.testimonial-picture {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 3%;
+}
+.welcome {
+    flex-wrap: wrap;
+
+}
+
+/* media query */
+@media (max-width: 870px) {
+    #middle-container {
+        text-align: center;
+        padding: 5% 5%;
+        
+    }
+    h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 3% 0;
+    }
+    .solar-panel {
+        height: 300px;
+        justify-items: center;
+        margin: 1% 10% 5%;
+    }
+
+}
+
+@media  (max-width: 800px) {
+
+    
+}
